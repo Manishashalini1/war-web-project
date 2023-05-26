@@ -6,6 +6,10 @@
   <packaging>war</packaging>
   <name>WAR Web Project</name>
   <description>A very simple Maven-enabled WAR web project</description>
+  <properties>
+       <sonar.host.url>http://3.26.19.44:9000/</sonar.host.url>
+       <sonar.login>squ_3a614ec2ef85bd12d2f51aa0a3388af0db190b3f</sonar.login>
+   </properties>
   <dependencies>
   	<dependency>
   		<groupId>com.google.code.gson</groupId>
